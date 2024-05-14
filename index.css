@@ -1,0 +1,169 @@
+.header{
+    display: flex;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-items{
+    padding: 0px 20px;
+}
+.nav-items > ul {
+    display: flex;
+    list-style: none;
+    font-size: 24px;
+    
+
+}
+
+.nav-items > ul  >li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.res-container{
+   display: flex;
+   flex-wrap:wrap;
+   
+}
+.res-card{
+   width: 200px;
+   padding: 5px;
+   margin: 5px;
+   background-color: #f0f0f0;
+   
+}
+
+.res-card:hover {
+    cursor: pointer;
+    border: 1px solid black; 
+}
+    
+
+.filter{
+    padding: 10px;
+}
+
+.filter-btn{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.res-logo{
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    
+   
+}
+/* shimmer card css */
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shimmer-card{
+    height: 400px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    background-color:#f0f0f0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+ }
+
+.shimmer-img{
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 10px;
+}
+
+@keyframes shimmer {
+    0%{
+        background-position: -200% 0;
+    }
+    100%{
+        background-position: 200% 0;
+    }
+}
+
+.shimmer-res-name{
+    margin-top: 40px;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 2px;
+}
+
+.shimmer-res-cuisine{
+    margin-top: 10px;
+    width: 90%;
+    height: 20px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 2px;
+}
+
+.shimmer-res-rating{
+    margin-top: 10px;
+    width: 40%;
+    height: 20px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 2px;
+}
+
+.shimmer-res-cost{
+    margin-top: 10px;
+    width: 70%;
+    height: 20px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 2px;
+}
+
+.shimmer-res-deliverytime{
+    margin-top: 10px;
+    width: 70%;
+    height: 20px;
+    background: linear-gradient(to right, #d3d3d3 0%, #a9a9a9 50%,#d3d3d3 100%);
+    animation: shimmer 1.5s infinite linear;
+    background-size: 200% auto;
+    border-radius: 2px;
+}
+
+.login{
+    padding:  0 20px;
+    margin-top: 22px;
+    cursor: pointer;
+    height: fit-content;
+    
+}
+
+.Body{
+    margin-left: 50px;
+}
+
+.filter{
+    display: flex;
+
+}
+
+.search-btn{
+    cursor: pointer;
+}
+
+
